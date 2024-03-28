@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper{
+    width: 960px;
+    height: 650px;
+    background: gray;
+    margin: 0 auto;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background: rgb(10, 133, 117);
+    text-align: center;
+    line-height: 60px;
+}
+.content-wrapper{
+    display: flex;
+}
+
+.content-wrapper aside{
+    width: 200px;
+    height: 530px;
+    background: black;
+}
+
+.content-wrapper article{
+    width: 760px;
+    height: 530px;
+    background: red;
+}
+
+article{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(9, 30, 147);
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background: rgb(40, 214, 191);
+}
+
+
